@@ -6,6 +6,7 @@ import com.revature.demo.model.Pet;
 public class Test {
     public static void main(String[] args) {
         Pet fido = new Dog((byte) 4, true, "blue");
+        Dog dog = new Dog();
         fido.bark();
     }
 }
